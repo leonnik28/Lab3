@@ -7,8 +7,8 @@
 
 void menu() {
     char filename[100];
-    printf("Enter the filename: ");
-    scanf("%s", filename);
+    printf_s("Enter the filename: ");
+    scanf_s("%s", filename);
 
     errno_t err;
     FILE* fp;
@@ -24,15 +24,15 @@ void menu() {
     }
 
     int choice;
-    printf("Enter the operation you want to perform:\n");
-    printf("1. Negative\n");
-    printf("2. Grayscale\n");
-    printf("3. Median filter\n");
-    printf("4. Gamma correction\n");
+    printf_s("Enter the operation you want to perform:\n");
+    printf_s("1. Negative\n");
+    printf_s("2. Grayscale\n");
+    printf_s("3. Median filter\n");
+    printf_s("4. Gamma correction\n");
     while (!scanf_s("%d", &choice) || choice < 1 || choice > 4 || getchar() != '\n') {
-        printf("Invalid choice! Valid choice [1-4]\n");
+        printf_s("Invalid choice! Valid choice [1-4]\n");
         rewind(stdin);
-        printf("Your choice: ");
+        printf_s("Your choice: ");
     }
     switch (choice) {
     case 1:
