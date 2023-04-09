@@ -1,0 +1,5 @@
+﻿  Menu.c
+E:\leonnik\Lab\Lab3\Lab3\Menu.c(23,18): warning C4098: menu: функция типа "void", возвращающая значение
+E:\leonnik\Lab\Lab3\Lab3\Menu.c(61,18): warning C4098: menu: функция типа "void", возвращающая значение
+E:\leonnik\Lab\Lab3\Lab3\Menu.c(11,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Lab3.vcxproj -> E:\leonnik\Lab\Lab3\x64\Debug\Lab3.exe
